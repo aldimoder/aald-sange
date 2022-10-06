@@ -223,16 +223,6 @@ console.log('Reseted Limit')
 scheduled: true,
 timezone: "Asia/Jakarta"
 })
-async function replyReg(teks) {
-const anakau = {
-video:fs.readFileSync("./baseikal/video/haikal.mp4"),
-gifPlayback:true,
-jpegThumbnail:log0,
-caption:`Haii 👋 Kak ${pushname} Selamat ${salam} *Aku Adalah Bot Aldi-Slebww*
-Agar Bot Bisa Di Gunakan Silahkan Ketik [ Verifikasi ] Di Group Apapun
- `
-}
-haikal.sendMessage(m.chat, anakau, {quoted: hw})
 }
 //=================================================// 
 // Public & Self
